@@ -1,0 +1,192 @@
+
+body { background-color: black; }
+
+hr { 
+    margin: 15px 50px;
+    border: 0;
+    height: 2px;
+    background: linear-gradient(to right, rgba(0,0,0,0) , #0069d9 , rgba(0,0,0,0));
+}
+
+
+/******************************************************navbar********/
+
+.navbar {   padding: 10px;  background-color: rgb(29, 29, 29);}
+
+.navbar .navbar-brand img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar .navbar-brand span { font-weight: bold; font-size: 30px;}
+
+.navbar .navbar-brand span:first-of-type { color: #0069d9 }
+
+.navbar .navbar-brand span:last-of-type { color: rgb(255, 255, 255); }
+
+.navbar .navbar-toggler {
+    color: #ffffff;
+    border: 1px solid #fff;
+    font-weight: bold;
+}
+
+.navbar .navbar-toggler:hover { background-color: #00000070; color: #0069d9;}
+
+.navbar .navbar-toggler .navbar-toggler-icon { 
+    text-align: center;
+    width: auto;
+}
+
+.navbar ul { margin: auto; font-weight: bold;}
+
+.navbar ul li { margin-right: 20px;}
+
+.navbar ul li .nav-link{ color: white; transition: .3s;}
+
+.navbar ul li.active .nav-link,
+.navbar ul li:hover .nav-link{ color: #0069d9;}
+
+/*end navbar*/
+
+
+
+/* start bread-crumb*/
+
+.bread-crumb
+{
+   background-color: rgb(65, 65, 65);
+}
+
+.bread-crumb .container .breadcrumb span
+{
+   margin: 0 5px;
+}
+
+/* end bread-crumb*************************************************/
+
+/*******************************************************************offer**********/
+
+.our-car .heading { color: #0069d9; margin: 40px 0 60px 0;}
+
+.our-car .heading i{ color: white;}
+
+.our-car .heading h3 { font-weight: bold; font-size: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.our-car .heading p { color: #fff;}
+
+.our-car .heading p:first-of-type{  margin: 20px;}
+
+
+.offer .containt { color: white; margin-bottom: 15px; overflow: hidden; }
+
+.offer .address011 h2 { font-weight: bold; font-size: 40px; color: #0069d9;}
+
+.offer .address011 img { margin-top: -50px;}
+
+.offer .containt h5 { color: #0069d9;}
+
+.offer .containt img { 
+    width: 100%; 
+    border-radius: 18px 18px 0 0; 
+    border-top: 1px solid #0069d9;
+    border-right: 1px solid #0069d9;
+    border-left: 1px solid #0069d9;
+    cursor: pointer;
+    height: 300px;
+}
+
+.offer .containt .info { 
+    background-color: rgba(34, 34, 34, 0.349); 
+    padding: 10px; 
+    border-radius: 0 0 18px 18px; 
+    border-bottom: 1px solid #0069d9;
+    border-left: 1px solid #0069d9;
+    border-right: 1px solid #0069d9;
+}
+
+.offer .containt .info p {font-size: 15px;}
+
+/*******************************************************************************/
+
+.our-car .content{
+    border: 1px solid cornflowerblue;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.our-car .content img{
+    max-width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.our-car .content .content-info{
+    color: white;
+    padding: 10px;
+}
+/****************************************************************contact************/
+
+.contact { margin-top: 20px; font-family: 'Raleway', sans-serif; }
+
+.contact .heading { color: #0069d9; margin: 40px 0 60px 0;}
+
+.contact .heading i{ color: #ffffff; }
+
+.contact .heading h3 { font-weight: bold; font-size: 40px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.contact .heading p { color: #fff;}
+
+.contact .heading p:first-of-type{  margin: 20px;}
+
+.contact .containt { 
+    color: white; 
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.contact .containt .bordder {     
+    border: 1px solid  #0069d9;
+    padding: 60px 0; 
+    border-radius: 18px; 
+}
+
+.contact .containt .bordder:hover {     
+    background: linear-gradient(90deg, rgba(33, 139, 104, 0.438) 0%, rgba(2, 11, 133, 0.411) 100%);
+    cursor: pointer;
+}
+
+.contact .containt i {     
+    background: linear-gradient(90deg, rgb(33, 139, 104) 0%, rgb(2, 11, 133) 100%);
+    -webKit-background-clip: text;
+    -webKit-text-fill-color: transparent;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.contact .containt span { display: block;}
+
+
+/*****************************************************************************************/
+
+.footer { margin-bottom: 20px;}
+
+.footer .container .info {
+    text-align: center;
+    margin-top: 25px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.footer .container .info span{ color:  #0069d9;}
+
+.footer .container .icon a { text-decoration: none; }
+
+.footer .container .icon a i{ 
+    color: #e1306c;
+    font-weight: bold; 
+    margin-left: 20px; 
+    cursor: pointer;
+}
+
+.footer .container .icon a .fa-facebook-square { color: #3b5998;}
+
+.footer .container .icon a .fa-twitter-square { color: #1da1f2;}
