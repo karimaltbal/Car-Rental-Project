@@ -1,8 +1,15 @@
 # Car-Rental_Project
 
-project link: https://karimaltbal.github.io/Car-Rental_Project/
+<table>
+<tr>
+<td>
+  Car rental website that contains many services, including (car rental - show your car for rent - show your car for sale)..
+</td>
+</tr>
+</table>
 
-A car rental website that contains many services, including (car rental - show your car for rent - show your car for sale).
+Demo: https://karimaltbal.github.io/Car-Rental_Project/
+
 
 ![1](https://user-images.githubusercontent.com/67224257/158075902-97855d67-2653-49db-8f54-54e4b6862844.png)
 ![2](https://user-images.githubusercontent.com/67224257/158075907-da9a1ee8-258f-4055-8218-2fd5796176b9.png)
