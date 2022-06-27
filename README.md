@@ -8,8 +8,11 @@
 </tr>
 </table>
 
-Demo: https://karimaltbal.github.io/Car-Rental_Project/
 
+## Demo
+Here is a working live demo :  https://karimaltbal.github.io/Car-Rental_Project/
+
+## Site
 
 ![1](https://user-images.githubusercontent.com/67224257/158075902-97855d67-2653-49db-8f54-54e4b6862844.png)
 ![2](https://user-images.githubusercontent.com/67224257/158075907-da9a1ee8-258f-4055-8218-2fd5796176b9.png)
